@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+       include ../static/style.css
+        
+block content
+     
+
+
+     section#introSection
+           div Welcome to the pradeep's dance academy
+           div.small Eat Sleep Dance Repeat
+       
+     section#missionSection
+           h2 Our Mission
+           div.card
+               h3 Dance Perfection
+               p We make your dance perfection as much as we can 
+           div.card
+               h3 Dance the way you like
+               p we are always commiting to feel better with our academy experience
+           div.card
+               h3 Expert Teaching
+               p we are  well known for the past ten years for our best commitment
+     section#sponsorsSection
+           h2 Our Sponsors
+           div#sponsors
+                h1 FACEBOOK
+                h1 GOOGLE
+                h1 MICROSOFT
+                h1 YAHOO
+                
+
+     footer#footer
+          | Copyright2020  &copy;  PradeepDanceAcademy.com | All rights  reserved
+     script
+       include ../static/index.js

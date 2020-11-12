@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin:12px 0;
+}
+
+.myForm{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.myInput{
+    display: block;
+    width:40%;
+    padding:9px;
+    margin:8px;
+    font-size:16px;
+    border: 2px solid red;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    padding: 12px 16px;
+    font-size:18px;
+    border:2px solid red;
+    border-radius:12px;
+    color:white;
+    background-color: black;
+    cursor:pointer;
+    outline:none;
+}
+.container{
+    margin: 43px 0;
+    min-height:77vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container h1{
+    font-size:34px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
